@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "4cf384e2-ec54-466f-b908-1af0f45884d4",
+		"name": "Senai.Roman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Usuarios / Professores",
+			"item": [
+				{
+					"name": "Usuarios.Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\" : \"erik@email.com\",\n\t\"senha\" : \"123456\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.4.221:5000/api/login",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"4",
+								"221"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"login"
+							]
+						},
+						"description": "\t\t\t"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Projetos",
+			"item": [
+				{
+					"name": "Projetos.Listar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVyaWtAZW1haWwuY29tIiwianRpIjoiMSIsImV4cCI6MTU3Mjg3MzgzMiwiaXNzIjoiUm9tYW4uV2ViQXBpIiwiYXVkIjoiUm9tYW4uV2ViQXBpIn0.rxMmMwNRxnL9497rZRipj5PIJllzqPzB3-EUFSf9hDg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.4.221:5000/api/projetos",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"4",
+								"221"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"projetos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Projetos.Cadastrar",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVyaWtAZW1haWwuY29tIiwianRpIjoiMSIsImV4cCI6MTU3Mjg3MzgzMiwiaXNzIjoiUm9tYW4uV2ViQXBpIiwiYXVkIjoiUm9tYW4uV2ViQXBpIn0.rxMmMwNRxnL9497rZRipj5PIJllzqPzB3-EUFSf9hDg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\" : \"Desenho\",\n\t\"idTema\" : 1,\n\t\"idProfessor\" : 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://192.168.4.221:5000/api/projetos",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"4",
+								"221"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"projetos"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
