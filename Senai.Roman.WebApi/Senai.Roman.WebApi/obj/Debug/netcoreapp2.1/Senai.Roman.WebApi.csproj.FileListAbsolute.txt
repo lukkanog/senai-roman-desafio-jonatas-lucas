@@ -1,0 +1,14 @@
+C:\Users\47451835855\Desktop\senai-roman-desafio-jonatas-lucas\Senai.Roman.WebApi\Senai.Roman.WebApi\bin\Debug\netcoreapp2.1\Senai.Roman.WebApi.deps.json
+C:\Users\47451835855\Desktop\senai-roman-desafio-jonatas-lucas\Senai.Roman.WebApi\Senai.Roman.WebApi\bin\Debug\netcoreapp2.1\Senai.Roman.WebApi.runtimeconfig.json
+C:\Users\47451835855\Desktop\senai-roman-desafio-jonatas-lucas\Senai.Roman.WebApi\Senai.Roman.WebApi\bin\Debug\netcoreapp2.1\Senai.Roman.WebApi.runtimeconfig.dev.json
+C:\Users\47451835855\Desktop\senai-roman-desafio-jonatas-lucas\Senai.Roman.WebApi\Senai.Roman.WebApi\bin\Debug\netcoreapp2.1\Senai.Roman.WebApi.dll
+C:\Users\47451835855\Desktop\senai-roman-desafio-jonatas-lucas\Senai.Roman.WebApi\Senai.Roman.WebApi\obj\Debug\netcoreapp2.1\Senai.Roman.WebApi.csprojAssemblyReference.cache
+C:\Users\47451835855\Desktop\senai-roman-desafio-jonatas-lucas\Senai.Roman.WebApi\Senai.Roman.WebApi\obj\Debug\netcoreapp2.1\Senai.Roman.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\47451835855\Desktop\senai-roman-desafio-jonatas-lucas\Senai.Roman.WebApi\Senai.Roman.WebApi\obj\Debug\netcoreapp2.1\Senai.Roman.WebApi.RazorAssemblyInfo.cache
+C:\Users\47451835855\Desktop\senai-roman-desafio-jonatas-lucas\Senai.Roman.WebApi\Senai.Roman.WebApi\obj\Debug\netcoreapp2.1\Senai.Roman.WebApi.RazorAssemblyInfo.cs
+C:\Users\47451835855\Desktop\senai-roman-desafio-jonatas-lucas\Senai.Roman.WebApi\Senai.Roman.WebApi\obj\Debug\netcoreapp2.1\Senai.Roman.WebApi.AssemblyInfoInputs.cache
+C:\Users\47451835855\Desktop\senai-roman-desafio-jonatas-lucas\Senai.Roman.WebApi\Senai.Roman.WebApi\obj\Debug\netcoreapp2.1\Senai.Roman.WebApi.AssemblyInfo.cs
+C:\Users\47451835855\Desktop\senai-roman-desafio-jonatas-lucas\Senai.Roman.WebApi\Senai.Roman.WebApi\obj\Debug\netcoreapp2.1\Senai.Roman.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\47451835855\Desktop\senai-roman-desafio-jonatas-lucas\Senai.Roman.WebApi\Senai.Roman.WebApi\bin\Debug\netcoreapp2.1\Senai.Roman.WebApi.pdb
+C:\Users\47451835855\Desktop\senai-roman-desafio-jonatas-lucas\Senai.Roman.WebApi\Senai.Roman.WebApi\obj\Debug\netcoreapp2.1\Senai.Roman.WebApi.dll
+C:\Users\47451835855\Desktop\senai-roman-desafio-jonatas-lucas\Senai.Roman.WebApi\Senai.Roman.WebApi\obj\Debug\netcoreapp2.1\Senai.Roman.WebApi.pdb
