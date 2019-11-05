@@ -1,6 +1,6 @@
 import React,{Component} from "react";
 import {Text,View,TextInput,TouchableOpacity,StyleSheet,Picker, AsyncStorage} from "react-native";
-
+import JwtDecode from "jwt-decode";
 
 class Cadastro extends Component{
     constructor(){
@@ -20,6 +20,8 @@ class Cadastro extends Component{
     _carregarTemas = async() =>{
         try {
             let token = await AsyncStorage.getItem("@roman:token");
+            
+
 
             if (token !== null){
                 fetch("http://192.168.4.221:5000/api/projetos",
@@ -42,6 +44,7 @@ class Cadastro extends Component{
     _cadastrarProjeto = async() =>{
         try {
             let token = await AsyncStorage.getItem("@roman:token");
+            let idUsuario = JwtDecode(token).jti;
 
             if (token !== null){
                 fetch("http://192.168.4.221:5000/api/projetos",{
@@ -54,8 +57,11 @@ class Cadastro extends Component{
                     body:JSON.stringify({
                         nome : this.state.nome,
                         idTema : this.state.idTema,
+                        idProfessor : idUsuario,
                     })
                 })
+                .then(resposta =>console.warn(resposta.status))
+                .catch(error => console.warn(error))
             }
 
         } catch (error) {
